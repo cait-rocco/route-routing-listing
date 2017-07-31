@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular 101</title>
+</head>
+<body ng-app="app">
+
+	<header id="header">
+		<a href="#!/route66">Route 66</a><br>
+		<a href="#!/blue-ridge-parkway">Blue Ridge Parkway</a><br>
+	</header><br>
+
+	<div ng-view></div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="route66Ctrl.js"></script>
+	<script src="BRPCtrl.js"></script>
+	<!-- <script src="messageCtrl.js"></script> -->
+</body>
+</html>
